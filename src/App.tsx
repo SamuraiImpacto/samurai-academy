@@ -60,7 +60,7 @@ function App() {
       const data = await response.json()
       const assistantMsg: Message = {
         role: 'assistant',
-        content: data.reply || data.message || 'Desculpe, não consegui processar sua pergunta.',
+        content: data.response || data.reply || data.message || 'Desculpe, não consegui processar sua pergunta.',
         sources: data.sources || [],
       }
       setMessages(prev => [...prev, assistantMsg])
