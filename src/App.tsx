@@ -91,7 +91,7 @@ function App() {
           <Brain size={28} color="#7c3aed" />
           <h1 style={styles.title}>Academy AIOX</h1>
         </div>
-        <p style={styles.subtitle}>Seu Sensei de Marketing Juridico</p>
+        <p style={styles.subtitle}>Seu Jarvis do AIOX</p>
       </header>
 
       {/* Mensagens */}
@@ -101,8 +101,8 @@ function App() {
             <Brain size={48} color="#3f3f46" />
             <p style={styles.emptyTitle}>Olá! Sou o Sensei da Academy AIOX.</p>
             <p style={styles.emptyText}>
-              Pergunte qualquer coisa sobre marketing juridico,
-              tráfego pago, conteúdo ou estratégias para advogados.
+              Pergunte sobre a metodologia AIOX, como criar squads,
+              configurar agentes, executar workflows ou resolver problemas.
             </p>
           </div>
         )}
